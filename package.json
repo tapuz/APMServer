@@ -1,0 +1,22 @@
+{
+  "name": "apm_server",
+  "version": "0.0.1",
+  "description": "Alice Patient Management Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapuz/APMServer.git"
+  },
+  "author": "Thierry Duhameeuw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tapuz/APMServer/issues"
+  },
+  "homepage": "https://github.com/tapuz/APMServer#readme",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
+}

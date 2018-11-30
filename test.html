@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Socket io client</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+        <script>
+            var socket = io("http://192.168.0.2:3000");
+            // use your socket
+            socket.on("welcome", (message) => {
+                console.log(message);
+            })
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
